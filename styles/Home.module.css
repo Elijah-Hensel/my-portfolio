@@ -277,7 +277,10 @@
     width: 100vw;
     margin-top: -65rem !important;
     justify-content: safe;
-    gap: 40rem;
+  }
+
+  .title {
+    margin-right: 40rem;
   }
 
   .title {
