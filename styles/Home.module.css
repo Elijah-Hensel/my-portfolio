@@ -244,14 +244,22 @@
 
 @media (max-width: 800px) {
   .container {
-    height: 120vh;
+    height: 100%;
+    width: 135vw;
   }
   .title {
     font-size: 2.5rem;
   }
+  .header {
+    width: 100vw;
+  }
 
   .code {
     font-size: 0.8rem;
+  }
+
+  .grid {
+    flex-direction: row;
   }
 }
 
@@ -259,11 +267,30 @@
   .title {
     font-size: 2rem;
   }
+
+  .container {
+    height: 400vh;
+    width: 350vw;
+  }
+
+  .header {
+    width: 100vw;
+    margin-top: -55rem;
+  }
+
+  .primarySection {
+    width: 350vw;
+    margin-top: -10rem;
+  }
   .grid {
     width: 100%;
-    flex-direction: column;
+    height: 70rem;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
+
   .card {
-    width: 80%;
+    min-width: 50rem;
+    min-height: 15rem;
   }
 }

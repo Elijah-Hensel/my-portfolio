@@ -73,3 +73,15 @@
     border-bottom: 0.3rem solid #6f2dbd;
   }
 } */
+
+@media (max-width: 800px) {
+  .navSection {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .navSection {
+    width: 100%;
+  }
+}

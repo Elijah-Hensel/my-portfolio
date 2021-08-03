@@ -44,5 +44,6 @@
     margin-top: 2rem;
     right: 10%;
     height: 200%;
+    display: none;
   }
 }
