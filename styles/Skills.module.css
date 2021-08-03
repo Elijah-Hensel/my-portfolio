@@ -19,13 +19,14 @@
 
 .skill {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: flex-start;
   color: #f7f7f7;
   border: solid 1px #a663cc;
   border-radius: 30px;
   width: 12rem;
   padding: 0.5rem;
+  gap: 1rem;
 }
 
 .expressIcon {
