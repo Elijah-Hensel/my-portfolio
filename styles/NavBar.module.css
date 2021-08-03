@@ -1,0 +1,75 @@
+.navSection {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  width: 100vw;
+  height: auto;
+  margin-top: 0rem;
+  padding: 1rem 1rem 0.3rem 1rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-evenly;
+  background-color: #161616;
+  -webkit-box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.35);
+  box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.35);
+}
+
+.navSection a {
+  text-align: center;
+  width: 9rem;
+  color: #f7f7f7;
+}
+
+.navSection a:nth-child(1):after {
+  content: "";
+  display: block;
+  width: 0;
+  border-bottom: 0.3rem solid #6f2dbd;
+  margin-top: -0.9rem;
+  padding-top: 20px;
+  padding-bottom: 2px;
+  transition: 0.5s;
+}
+
+.navSection a:nth-child(2):after {
+  content: "";
+  display: block;
+  width: 0;
+  border-bottom: 0.3rem solid #a663cc;
+  margin-top: -0.9rem;
+  padding-top: 20px;
+  padding-bottom: 2px;
+  transition: 0.5s;
+}
+
+.navSection a:nth-child(3):after {
+  content: "";
+  display: block;
+  width: 0;
+  border-bottom: 0.3rem solid #b298dc;
+  margin-top: -0.9rem;
+  padding-top: 20px;
+  padding-bottom: 2px;
+  transition: 0.5s;
+}
+
+.navSection a:nth-child(4):after {
+  content: "";
+  display: block;
+  width: 0;
+  border-bottom: 0.3rem solid #e2d6f7;
+  margin-top: -0.9rem;
+  padding-top: 20px;
+  padding-bottom: 2px;
+  transition: 0.5s;
+}
+
+.navSection a:hover:after {
+  width: 100%;
+}
+
+/* @keyframes myanim {
+  50% {
+    border-bottom: 0.3rem solid #6f2dbd;
+  }
+} */

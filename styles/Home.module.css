@@ -1,0 +1,269 @@
+.container {
+  top: 0;
+  left: 0;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #161616;
+  background-image: linear-gradient(180deg, #161616 0%, #303031 100%);
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10rem;
+}
+
+.header {
+  min-height: 100vh;
+  /* margin-top: 30rem; */
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  border-top: 1px solid #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  max-width: 35%;
+  margin: 0;
+  margin-bottom: 1rem;
+  line-height: 1.15;
+  font-size: 4rem;
+  color: #f7f7f7;
+}
+
+.titleSecondary {
+  color: #a663cc;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.code {
+  background: #2e2e2e;
+  border-radius: 5px;
+  padding: 0.75rem;
+  color: #f7f7f7;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.primarySection {
+  background-color: #6f2dbd;
+  width: 100%;
+  min-height: 100vh;
+  padding: 2rem;
+  margin-top: 10rem;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  transform: skewY(3deg);
+  -webkit-transform: skewY(3deg);
+  -moz-transform: skewY(3deg);
+  border-bottom: 180px solid #6f2dbd;
+  border-left: 8px solid transparent;
+  border-right: 14px solid transparent;
+}
+
+.primarySection div {
+  transform: skewY(-3deg);
+  -webkit-transform: skewY(-3deg);
+  -moz-transform: skewY(-3deg);
+}
+
+.headshot {
+  margin-top: 10rem;
+  border-radius: 275px;
+  overflow: hidden;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.about h3 {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+.about p {
+  align-self: flex-end;
+  margin-right: 8rem;
+}
+
+.about p.blurb {
+  border: 1px solid #f7f7f7;
+  border-radius: 20px;
+  margin-left: 8rem;
+  margin-top: 4rem;
+  padding: 2rem;
+  line-height: 2rem;
+  max-width: 50%;
+  align-self: flex-start;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+  max-height: 400px;
+  margin-top: 3rem;
+}
+
+.card {
+  mix-blend-mode: color-dodge;
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  width: 80%;
+  z-index: 2;
+  color: white;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  border-color: #a663cc;
+}
+
+.card h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
+}
+
+.overlay {
+  position: relative;
+  z-index: 1;
+  mix-blend-mode: hue;
+  width: 40rem;
+  height: 100%;
+  padding: 2rem;
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+}
+
+.overlayText {
+  mix-blend-mode: normal;
+  color: white;
+}
+
+.projectSkillsWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 33%;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    height: 120vh;
+  }
+
+  .description {
+    font-size: 10px;
+  }
+  .title {
+    font-size: 3.5rem;
+  }
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+  .card {
+    width: 80%;
+  }
+}
+
+@media (max-width: 800px) {
+  .container {
+    height: 120vh;
+  }
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .code {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 2rem;
+  }
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+  .card {
+    width: 80%;
+  }
+}

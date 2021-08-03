@@ -1,0 +1,108 @@
+.skillContainer {
+  display: flex;
+  padding-top: 1.5rem;
+}
+
+.skillWrapper {
+  max-width: 25rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.skillWrapper:first-child {
+  margin-right: 1rem;
+}
+
+.skill {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: #f7f7f7;
+  border: solid 1px #a663cc;
+  border-radius: 30px;
+  width: 12rem;
+  padding: 0.5rem;
+}
+
+.expressIcon {
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  background-color: #f7f7f7;
+  -webkit-mask: url("/assets/skills/express-svgrepo-com.svg") no-repeat 50% 50%;
+  mask: url("/assets/skills/express-svgrepo-com.svg") no-repeat 50% 50%;
+}
+
+.nodeIcon {
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  background-color: #f7f7f7;
+  -webkit-mask: url("/assets/skills/node-js-svgrepo-com.svg") no-repeat 50% 50%;
+  mask: url("/assets/skills/node-js-svgrepo-com.svg") no-repeat 50% 50%;
+}
+
+.jsIcon {
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  background-color: #f7f7f7;
+  -webkit-mask: url("/assets/skills/javascript-svgrepo-com.svg") no-repeat 50%
+    50%;
+  mask: url("/assets/skills/javascript-svgrepo-com.svg") no-repeat 50% 50%;
+}
+.reactIcon {
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  background-color: #f7f7f7;
+  -webkit-mask: url("/assets/skills/react-svgrepo-com.svg") no-repeat 50% 50%;
+  mask: url("/assets/skills/react-svgrepo-com.svg") no-repeat 50% 50%;
+}
+
+.postgresIcon {
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  background-color: #f7f7f7;
+  -webkit-mask: url("/assets/skills/postgresql-svgrepo-com.svg") no-repeat 50%
+    50%;
+  mask: url("/assets/skills/postgresql-svgrepo-com.svg") no-repeat 50% 50%;
+}
+
+.jqueryIcon {
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  background-color: #f7f7f7;
+  -webkit-mask: url("/assets/skills/jquery-svgrepo-com.svg") no-repeat 50% 50%;
+  mask: url("/assets/skills/jquery-svgrepo-com.svg") no-repeat 50% 50%;
+}
+
+.shopifyIcon {
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  background-color: #f7f7f7;
+  -webkit-mask: url("/assets/skills/shopify-svgrepo-com.svg") no-repeat 50% 50%;
+  mask: url("/assets/skills/shopify-svgrepo-com.svg") no-repeat 50% 50%;
+}
+/* /assets/skills/express-svgrepo-com.svg */
