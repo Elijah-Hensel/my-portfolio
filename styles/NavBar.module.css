@@ -83,5 +83,11 @@
 @media (max-width: 600px) {
   .navSection {
     width: 100%;
+    height: 80px;
+    font-size: 30px;
+  }
+
+  .navSection a {
+    width: 12rem;
   }
 }
