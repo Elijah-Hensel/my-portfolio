@@ -29,8 +29,8 @@
 }
 
 .expressIcon {
-  width: 48px;
-  height: 48px;
+  width: 30px;
+  height: 30px;
   display: inline-block;
   -webkit-mask-size: cover;
   mask-size: cover;
@@ -40,8 +40,8 @@
 }
 
 .nodeIcon {
-  width: 48px;
-  height: 48px;
+  width: 30px;
+  height: 30px;
   display: inline-block;
   -webkit-mask-size: cover;
   mask-size: cover;
@@ -51,8 +51,8 @@
 }
 
 .jsIcon {
-  width: 48px;
-  height: 48px;
+  width: 30px;
+  height: 30px;
   display: inline-block;
   -webkit-mask-size: cover;
   mask-size: cover;
@@ -62,8 +62,8 @@
   mask: url("/assets/skills/javascript-svgrepo-com.svg") no-repeat 50% 50%;
 }
 .reactIcon {
-  width: 48px;
-  height: 48px;
+  width: 30px;
+  height: 30px;
   display: inline-block;
   -webkit-mask-size: cover;
   mask-size: cover;
@@ -73,8 +73,8 @@
 }
 
 .postgresIcon {
-  width: 48px;
-  height: 48px;
+  width: 30px;
+  height: 30px;
   display: inline-block;
   -webkit-mask-size: cover;
   mask-size: cover;
@@ -85,8 +85,8 @@
 }
 
 .jqueryIcon {
-  width: 48px;
-  height: 48px;
+  width: 30px;
+  height: 30px;
   display: inline-block;
   -webkit-mask-size: cover;
   mask-size: cover;
@@ -96,8 +96,8 @@
 }
 
 .shopifyIcon {
-  width: 48px;
-  height: 48px;
+  width: 30px;
+  height: 30px;
   display: inline-block;
   -webkit-mask-size: cover;
   mask-size: cover;
