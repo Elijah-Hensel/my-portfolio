@@ -276,7 +276,8 @@
   .header {
     width: 100vw;
     margin-top: -65rem !important;
-    column-gap: 30rem;
+    justify-content: safe;
+    gap: 40rem;
   }
 
   .title {
