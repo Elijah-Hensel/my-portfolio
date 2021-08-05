@@ -121,7 +121,6 @@
 
   .skillWrapper {
     max-width: 20%;
-    margin-bottom: 2rem;
   }
 
   .skillWrapper:nth-of-type(odd) {
@@ -133,5 +132,6 @@
     border: hidden;
     background-color: #aa63cc;
     background-image: linear-gradient(90deg, #aa63cc 0%, #6f2dbd 100%);
+    margin-bottom: 2rem;
   }
 }
