@@ -114,13 +114,17 @@
     padding-top: 0;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 5.5rem;
+    /* gap: 5.5rem; */
     align-items: center;
     margin-left: 1.75rem;
   }
 
   .skillWrapper {
     max-width: 20%;
+  }
+
+  .skillWrapper:nth-of-type(odd) {
+    margin-right: 7rem;
   }
 
   .skill {
