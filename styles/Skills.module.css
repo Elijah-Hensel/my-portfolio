@@ -121,6 +121,7 @@
 
   .skillWrapper {
     max-width: 20%;
+    margin-bottom: 2rem;
   }
 
   .skillWrapper:nth-of-type(odd) {
