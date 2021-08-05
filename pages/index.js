@@ -30,7 +30,9 @@ export default function Home() {
         <section id="about" className={styles.primarySection}>
           <div className={styles.about}>
             <h3>Artist Manager turned Web Developer</h3>
-            <p>with a passion for exquisite design</p>
+            <p className={styles.subText}>
+              with a passion for exquisite design
+            </p>
             <p className={styles.blurb}>
               For the last 8 years I have been an artist manager for an
               international touring heavy metal band. During this, I have
@@ -48,6 +50,7 @@ export default function Home() {
         <section className={styles.projectSkillsWrapper}>
           <div id="projects" className={styles.grid}>
             <Blob />
+            <h2 className={styles.projectHeader}>PROJECTS</h2>
             <a
               rel="noreferrer noopener"
               target="_blank"
@@ -88,7 +91,7 @@ export default function Home() {
         </section>
       </main>
 
-      <footer className={styles.footer}>
+      {/* <footer className={styles.footer}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
@@ -99,7 +102,7 @@ export default function Home() {
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
         </a>
-      </footer>
+      </footer> */}
     </div>
   );
 }
