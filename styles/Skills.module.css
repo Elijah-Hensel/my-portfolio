@@ -1,14 +1,13 @@
 .skillContainer {
+  margin-left: 5%;
   display: flex;
   padding-top: 1.5rem;
 }
 
 .skillWrapper {
-  max-width: 25rem;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  align-items: flex-start;
   justify-content: center;
   gap: 1rem;
 }
@@ -111,26 +110,18 @@
 @media only screen and (max-width: 600px) {
   .skillContainer {
     padding-top: 0;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: row;
     align-items: center;
     text-align: center;
-    margin: 7%;
-  }
-
-  .skillWrapper {
-    max-width: 20%;
-  }
-
-  .skillWrapper:nth-of-type(odd) {
-    margin-right: 7rem;
+    /* margin: 7%; */
   }
 
   .skill {
-    width: 10rem;
+    max-width: 10rem;
     border: hidden;
     background-color: #aa63cc;
     background-image: linear-gradient(90deg, #aa63cc 0%, #6f2dbd 100%);
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
   }
 }

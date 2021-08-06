@@ -30,8 +30,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 5rem;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .footer {
@@ -216,14 +215,11 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .container {
-    width: 100vw;
-  }
-
   .header {
     margin-top: 1rem;
     margin-right: 1rem;
     gap: 1;
+    flex-direction: column;
   }
 
   .title {
