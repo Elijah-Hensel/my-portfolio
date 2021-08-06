@@ -215,7 +215,6 @@
 
 @media only screen and (max-width: 600px) {
   .container {
-    padding-top: 60rem;
     width: 100vw;
   }
 
@@ -266,5 +265,11 @@
     border: hidden;
     background-color: #aa63cc;
     background-image: linear-gradient(90deg, #aa63cc 0%, #6f2dbd 100%);
+  }
+}
+
+@supports (-webkit-touch-callout: none) {
+  .container {
+    padding-top: 60rem;
   }
 }
