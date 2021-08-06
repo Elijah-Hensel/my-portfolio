@@ -1,4 +1,5 @@
 .container {
+  margin-top: 10rem;
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
@@ -268,8 +269,8 @@
   }
 }
 
-@supports (-webkit-touch-callout: none) {
+/* @supports (-webkit-touch-callout: none) {
   .container {
     padding-top: 60rem;
   }
-}
+} */
