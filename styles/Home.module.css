@@ -1,11 +1,12 @@
 .container {
-  margin-top: 10rem;
+  position: absolute;
+  top: 0;
+  left: 0;
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  height: 100%;
   background-color: #161616;
   background-image: linear-gradient(180deg, #161616 0%, #303031 100%);
 }

@@ -10,6 +10,12 @@ body {
   height: auto;
 }
 
+body {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 a {
   color: inherit;
   text-decoration: none;
