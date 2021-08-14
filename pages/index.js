@@ -3,6 +3,7 @@ import Image from "next/image";
 import NavBar from "../public/components/NavBar";
 import Blob from "../public/components/Blob";
 import Skills from "../public/components/Skills";
+import ContactForm from "../public/components/ContactForm";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -89,6 +90,7 @@ export default function Home() {
             </a>
           </div>
         </section>
+        <ContactForm />
       </main>
 
       {/* <footer className={styles.footer}>

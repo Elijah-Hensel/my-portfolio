@@ -103,12 +103,6 @@
   -moz-transform: skewY(-3deg);
 }
 
-.headshot {
-  margin-top: 10rem;
-  border-radius: 275px;
-  overflow: hidden;
-}
-
 .about {
   display: flex;
   flex-direction: column;

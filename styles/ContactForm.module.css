@@ -1,0 +1,43 @@
+.contactSection {
+  background-color: #6f2dbd;
+  padding: 2rem;
+  margin-top: 10rem;
+  color: white;
+  transform: skewY(3deg);
+  -webkit-transform: skewY(3deg);
+  -moz-transform: skewY(3deg);
+  border-bottom: 180px solid #6f2dbd;
+  border-left: 8px solid transparent;
+  border-right: 14px solid transparent;
+}
+
+.contactSection div {
+  transform: skewY(-3deg);
+  -webkit-transform: skewY(-3deg);
+  -moz-transform: skewY(-3deg);
+}
+
+.form {
+  display: flex;
+  width: 30rem;
+  height: auto;
+  flex-direction: column;
+}
+
+.info:first-of-type {
+  margin: 1rem 0;
+}
+
+.info {
+  margin-bottom: 1rem;
+  height: 3em;
+}
+
+.text {
+  height: 10em;
+  margin-bottom: 1rem;
+}
+
+.button {
+  max-width: 5rem;
+}
