@@ -1,12 +1,12 @@
 .contactSection {
   background-color: #6f2dbd;
   padding: 2rem;
-  margin-top: 10rem;
+  margin: 5rem 0;
   color: white;
   transform: skewY(3deg);
   -webkit-transform: skewY(3deg);
   -moz-transform: skewY(3deg);
-  border-bottom: 180px solid #6f2dbd;
+  border-bottom: 80px solid #6f2dbd;
   border-left: 8px solid transparent;
   border-right: 14px solid transparent;
 }
@@ -19,7 +19,7 @@
 
 .form {
   display: flex;
-  width: 30rem;
+  max-width: 30rem;
   height: auto;
   flex-direction: column;
 }
