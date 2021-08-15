@@ -31,9 +31,6 @@ export default function Home() {
         <section id="about" className={styles.primarySection}>
           <div className={styles.about}>
             <h3>Artist Manager turned Web Developer</h3>
-            <p className={styles.subText}>
-              with a passion for exquisite design
-            </p>
             <p className={styles.blurb}>
               For the last 8 years I have been an artist manager for an
               international touring heavy metal band. During this, I have
@@ -52,24 +49,6 @@ export default function Home() {
           <div id="projects" className={styles.grid}>
             <Blob />
             <h2 className={styles.projectHeader}>PROJECTS</h2>
-            <a
-              rel="noreferrer noopener"
-              target="_blank"
-              href="https://used-egg.herokuapp.com"
-              className={styles.card}
-            >
-              <h2>UsedEgg. &rarr;</h2>
-              <p>E-commerce site with fully functioning backend &amp; API</p>
-            </a>
-            <a
-              rel="noreferrer noopener"
-              target="_blank"
-              href="https://eem-linkerator.herokuapp.com/"
-              className={styles.card}
-            >
-              <h2>Linkerator &rarr;</h2>
-              <p>Fullstack bookmarking webapp with a popularity counter</p>
-            </a>
             <a
               rel="noreferrer noopener"
               target="_blank"

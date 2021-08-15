@@ -9,7 +9,7 @@ export default function ContactForm() {
   }
   return (
     <section className={styles.contactSection}>
-      <div>
+      <div id="contact">
         <form id="contact-form" className={styles.form} onSubmit={handleSubmit}>
           <label htmlFor="email">Contact Me!</label>
           <input

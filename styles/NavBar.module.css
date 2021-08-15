@@ -1,7 +1,7 @@
 .navSection {
   position: fixed;
   top: 0;
-  z-index: 2;
+  z-index: 3;
   width: 100vw;
   height: auto;
   margin-top: 0rem;

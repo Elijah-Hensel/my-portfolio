@@ -1,4 +1,5 @@
 .contactSection {
+  width: 100%;
   background-color: #6f2dbd;
   padding: 2rem;
   margin: 5rem 0;
@@ -9,9 +10,12 @@
   border-bottom: 80px solid #6f2dbd;
   border-left: 8px solid transparent;
   border-right: 14px solid transparent;
+  display: flex;
+  justify-content: center;
 }
 
 .contactSection div {
+  width: 50%;
   transform: skewY(-3deg);
   -webkit-transform: skewY(-3deg);
   -moz-transform: skewY(-3deg);
@@ -19,7 +23,7 @@
 
 .form {
   display: flex;
-  max-width: 30rem;
+  /* max-width: 30rem; */
   height: auto;
   flex-direction: column;
 }
@@ -40,4 +44,15 @@
 
 .button {
   max-width: 5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .contactSection {
+    width: 100%;
+  }
+
+  .form {
+    margin-left: -25%;
+    width: 150%;
+  }
 }
