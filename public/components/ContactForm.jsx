@@ -5,7 +5,15 @@ import styles from "../../styles/ContactForm.module.css";
 export default function ContactForm() {
   const [state, handleSubmit] = useForm("xayalqlq");
   if (state.succeeded) {
-    return <p>Thanks for joining!</p>;
+    return (
+      <section className={styles.contactSection}>
+        <div id="contact">
+          <p style={{ color: "white", padding: "5rem", textAlign: "center" }}>
+            Thanks for reaching out!
+          </p>
+        </div>
+      </section>
+    );
   }
   return (
     <section className={styles.contactSection}>
