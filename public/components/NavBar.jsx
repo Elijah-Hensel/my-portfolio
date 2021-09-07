@@ -9,8 +9,13 @@ export default function NavBar() {
       <a href="#projects" alt="projects">
         PROJECTS
       </a>
-      <a href="#boilerplate" alt="boilerplate">
-        BOILERPLATES
+      <a
+        target="_blank"
+        rel="noreferrer"
+        href="https://www.github.com/Elijah-Hensel"
+        alt="github"
+      >
+        GITHUB
       </a>
       <a href="#contact" alt="contact">
         CONTACT
