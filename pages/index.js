@@ -58,7 +58,7 @@ export default function Home() {
               <h2>Discord RhymeBot &rarr;</h2>
               <p>
                 A discord bot that utilizes the DataMuse API to return words
-                that rhyme with the user input.
+                that rhyme, are related to, or are synonyms of the user input.
               </p>
             </a>
             <a
