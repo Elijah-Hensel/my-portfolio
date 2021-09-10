@@ -52,6 +52,18 @@ export default function Home() {
             <a
               rel="noreferrer noopener"
               target="_blank"
+              href="https://github.com/Elijah-Hensel/rhymebot"
+              className={styles.card}
+            >
+              <h2>Discord RhymeBot &rarr;</h2>
+              <p>
+                A discord bot that utilizes the DataMuse API to return words
+                that rhyme with the user input.
+              </p>
+            </a>
+            <a
+              rel="noreferrer noopener"
+              target="_blank"
               href="https://used-egg.herokuapp.com"
               className={styles.card}
             >
