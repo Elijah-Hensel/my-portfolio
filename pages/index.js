@@ -7,7 +7,7 @@ import ContactForm from "../public/components/ContactForm";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
-  console.log(styles);
+
   return (
     <div className={styles.container}>
       <Head>
@@ -52,50 +52,37 @@ export default function Home() {
             <a
               rel="noreferrer noopener"
               target="_blank"
-              href="https://github.com/Elijah-Hensel/rhymebot"
+              href="https://link-counter.onrender.com/"
               className={styles.card}
             >
+              <h2>Linkerator &rarr;</h2>
+              <p>Fullstack bookmarking webapp with a popularity counter</p>
+            </a>
+            <a
+              rel="noreferrer noopener"
+              target="_blank"
+              href="https://github.com/Elijah-Hensel/Beatles-Emailer"
+              className={styles.card}
+            >
+              <h2>Beatles Emailer &rarr;</h2>
+              <p>An email service that sends users a unique, randomly selected lyric from The Beatles</p>
+            </a>
+            <a
+              rel="noreferrer noopener"
+              target="_blank"
+              href="https://github.com/Elijah-Hensel/rhymebot"
+              className={styles.card}
+             >
               <h2>Discord RhymeBot &rarr;</h2>
               <p>
                 A discord bot that utilizes the DataMuse API to return words
                 that rhyme, are related to, or are synonyms of the user input.
               </p>
             </a>
-            <a
-              rel="noreferrer noopener"
-              target="_blank"
-              href="https://used-egg.herokuapp.com"
-              className={styles.card}
-            >
-              <h2>UsedEgg. &rarr;</h2>
-              <p>E-commerce site with fully functioning backend &amp; API</p>
-            </a>
-            <a
-              rel="noreferrer noopener"
-              target="_blank"
-              href="https://eem-linkerator.herokuapp.com/"
-              className={styles.card}
-            >
-              <h2>Linkerator &rarr;</h2>
-              <p>Fullstack bookmarking webapp with a popularity counter</p>
-            </a>
           </div>
         </section>
         <ContactForm />
       </main>
-
-      {/* <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{" "}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer> */}
     </div>
   );
 }
